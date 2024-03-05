@@ -1,5 +1,6 @@
 import { HashRouter as Router, Route } from 'react-router-dom';
 import './App.css';
+import Portfolio from '../Portfolio/Portfolio.jsx';
 
 import Container from '@mui/material/Container';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
@@ -11,7 +12,7 @@ function App() {
       <Router>
         <Container fixed>
           <Route path="/" exact>
-            {/* PORTFOLIO HERE */}
+            <Portfolio />
           </Route>
 
           {/* Add Movie page */}
